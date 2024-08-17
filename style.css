@@ -6,4 +6,60 @@
     --fundo-texto: #001E40;
     --borda: #0075FF;
     --roboto: "Roboto", sans-serif;
-    --roboto-mono: ""
+    --roboto-mono: "Roboto Mono" , monospace;
+}
+*{
+    font-weight: 400;
+}
+body{
+color:var(--branco);
+background-color: var(--roboto-mono);
+}
+.titulo-principal{
+font-family: var(--roboto-mono);
+font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+}
+.conteudo-senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding-bottom: 6px solid :var(var(--borda));
+
+}
+#campo-senha{
+    width: 70%;
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-size: 40px;
+
+}
+#campo-senhas:focus{
+
+max-width: 1200px;
+margin: 0 auto;
+}
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px
+    ;
+}
+.parametro-titulo{
+font-family: var(--roboto-mono);
+font-size: 28px;
+padding: 24px;
+
+}
+.parametro-coluna_senha{
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+}
+@media  an ( min-width:768px) {
+}
+}
